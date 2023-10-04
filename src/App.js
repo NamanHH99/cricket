@@ -26,9 +26,7 @@ function App() {
       calculatedScore += 8;
     } else if (runs >= 30) {
       calculatedScore += 4;
-    } else if (runs === 0) {
-      calculatedScore = calculatedScore - 2;
-    }
+    } 
 
     if (wickets >= 5) {
       calculatedScore += 16;
